@@ -1,75 +1,67 @@
-# Nuxt Minimal Starter
+# Nuxt App Starter
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+一个由我个人搭建和维护的 **Nuxt 4 项目模板**，用于快速创建现代化的前端项目。  
+该模板集成了常用的 UI、样式、代码规范与工程化工具，开箱即用，适合中小型项目快速启动。
 
-## Setup
+---
 
-Make sure to install dependencies:
+## ✨ 特性
+
+- ⚡ 基于 **Nuxt 4 + Vue 3**
+- 🎨 内置 **Tailwind CSS** + **Nuxt UI**
+- 🧩 集成 **Element Plus（Nuxt 模块）**
+- 🧭 使用 **Vue Router 4**
+- 🛠 完整的 **ESLint + Prettier** 代码规范
+- 📦 使用 **ESM（type: module）**
+- 🔧 已配置 PostCSS 与 Sass
+- 🚀 支持构建、开发、生成、预览完整流程
+
+---
+
+## 📦 技术栈
+
+### 核心框架
+
+- **Nuxt** `^4.1.1`
+- **Vue** `^3.5.21`
+- **Vue Router** `^4.5.1`
+
+### UI / 样式
+
+- **Tailwind CSS** `^3.4.17`
+- **Nuxt UI** `^3.3.3`
+- **Element Plus（Nuxt）** `^1.1.4`
+- **Sass Embedded**
+- **PostCSS**
+- **postcss-custom-media**
+
+### 工程化 & 规范
+
+- **TypeScript** `^5.9.2`
+- **ESLint** `^9.35.0`
+- **Prettier**
+- **prettier-plugin-tailwindcss**
+- **@types/node**
+
+---
+
+## 📁 项目定位
+
+该项目是一个 **基础模板 / 起始项目（Starter）**：
+
+- 不包含业务代码
+- 不强制约束目录结构
+- 适合作为：
+  - 新项目起点
+  - 技术选型实验
+  - 中小型项目基础工程
+
+---
+
+## 🚀 使用方式
+
+### 安装依赖
 
 ```bash
-# npm
 npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
 ```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
